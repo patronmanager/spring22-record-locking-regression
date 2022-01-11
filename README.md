@@ -2,6 +2,11 @@
 ```
 sfdx force:org:create --setdefaultusername -f config\project-scratch-def.json
 sfdx force:source:push
+sfdx force:apex:execute -f scripts\apex\setRole.apex
 ```
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+
+#Run the unit tests
+```
+sfdx force:apex:test:run -w 50
+```
 
