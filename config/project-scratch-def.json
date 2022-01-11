@@ -1,7 +1,7 @@
 {
-  "orgName": "Demo company",
+  "orgName": "Spring '22 Unit Test record locking regression",
   "edition": "Developer",
-  "features": ["EnableSetPasswordInApi"],
+  "features": ["EnableSetPasswordInApi","Communities"],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
