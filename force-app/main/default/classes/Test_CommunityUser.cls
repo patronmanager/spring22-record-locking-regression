@@ -12,7 +12,7 @@ public class Test_CommunityUser {
     @IsTest
     static void testBehaviorA() {
         System.runAs(getCommunityUser()){
-            for(Integer i=0; i<10000; i++){
+            for(Integer i=0; i<100000; i++){
                 //Expensive operation to slow down this test method
                 Crypto.generateAesKey(256);
             }
@@ -21,7 +21,7 @@ public class Test_CommunityUser {
     @IsTest
     static void testBehaviorB() {
         System.runAs(getCommunityUser()){
-            for(Integer i=0; i<10000; i++){
+            for(Integer i=0; i<100000; i++){
                 //Expensive operation to slow down this test method
                 Crypto.generateAesKey(256);
             }
@@ -30,7 +30,7 @@ public class Test_CommunityUser {
     @IsTest
     static void testBehaviorC() {
         System.runAs(getCommunityUser()){
-            for(Integer i=0; i<10000; i++){
+            for(Integer i=0; i<100000; i++){
                 //Expensive operation to slow down this test method
                 Crypto.generateAesKey(256);
             }
@@ -39,7 +39,7 @@ public class Test_CommunityUser {
     @IsTest
     static void testBehaviorD() {
         System.runAs(getCommunityUser()){
-            for(Integer i=0; i<10000; i++){
+            for(Integer i=0; i<100000; i++){
                 //Expensive operation to slow down this test method
                 Crypto.generateAesKey(256);
             }

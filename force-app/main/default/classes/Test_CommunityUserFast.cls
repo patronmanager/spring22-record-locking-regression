@@ -10,36 +10,36 @@ private class Test_CommunityUserFast {
     }
 
     @IsTest
-    static void testBehaviorA() {
+    static void testFastA() {
         System.runAs(Test_CommunityUser.getCommunityUser()){
-            for(Integer i=0; i<1000; i++){
+            for(Integer i=0; i<100000; i++){
                 //Expensive operation to slow down this test method
                 Crypto.generateAesKey(256);
             }
         }
     }
     @IsTest
-    static void testBehaviorB() {
+    static void testFastB() {
         System.runAs(Test_CommunityUser.getCommunityUser()){
-            for(Integer i=0; i<1000; i++){
+            for(Integer i=0; i<100000; i++){
                 //Expensive operation to slow down this test method
                 Crypto.generateAesKey(256);
             }
         }
     }
     @IsTest
-    static void testBehaviorC() {
+    static void testFastC() {
         System.runAs(Test_CommunityUser.getCommunityUser()){
-            for(Integer i=0; i<1000; i++){
+            for(Integer i=0; i<100000; i++){
                 //Expensive operation to slow down this test method
                 Crypto.generateAesKey(256);
             }
         }
     }
     @IsTest
-    static void testBehaviorD() {
+    static void testFastD() {
         System.runAs(Test_CommunityUser.getCommunityUser()){
-            for(Integer i=0; i<1000; i++){
+            for(Integer i=0; i<100000; i++){
                 //Expensive operation to slow down this test method
                 Crypto.generateAesKey(256);
             }
